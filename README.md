@@ -18,9 +18,11 @@ Everything is fully accessible **without an internet connection**.
 bash:
 git clone https://github.com/vahid-kazemi/W3Schools-Offline.git
 
-2. Open the following file in your browser:
+2. Start the homepage:
 
-./W3Schools-Offline/www.w3schools.com/index.html
+cd ./W3Schools-offline/
+
+npm start
 
 You can now browse the full W3Schools site offline — no server required.
 
