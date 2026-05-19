@@ -1,0 +1,11 @@
+{
+  "name": "w3schools-offline",
+  "version": "1.0.0",
+  "description": "Serve local copy of W3Schools site",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --directory www.w3schools.com",
+    "start:port": "node -e \"const p=process.argv[1]||8000; require('child_process').spawn('python3',['-m','http.server',p,'--directory','www.w3schools.com'],{stdio:'inherit'});\" --"
+  },
+  "author": "",
+  "license": "MIT"
+}
